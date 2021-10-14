@@ -1,0 +1,30 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Anna-tk/nodeTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anna-tk/nodeTest/issues"
+  },
+  "homepage": "https://github.com/Anna-tk/nodeTest#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "dependencies": {
+    "@nestjs/cli": "^8.1.2",
+    "@types/node": "^16.10.9",
+    "enum": "^3.0.4",
+    "express": "^4.17.1",
+    "node": "^16.10.0",
+    "typescript": "^4.4.4"
+  }
+}
