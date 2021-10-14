@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ts": "tsc topAPI/test.ts",
+    "ts-node": "ts-node topAPI/test.ts",
+    "build": "nest build",
+    "start": "nest start"
   },
   "repository": {
     "type": "git",
@@ -21,10 +24,17 @@
   },
   "dependencies": {
     "@nestjs/cli": "^8.1.2",
+    "@nestjs/common": "^8.1.1",
+    "@nestjs/core": "^8.1.1",
+    "@nestjs/platform-express": "^8.1.1",
     "@types/node": "^16.10.9",
     "enum": "^3.0.4",
     "express": "^4.17.1",
     "node": "^16.10.0",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^3.0.2",
+    "rxjs": "^7.4.0",
+    "ts-node": "^10.3.0",
     "typescript": "^4.4.4"
   }
 }
