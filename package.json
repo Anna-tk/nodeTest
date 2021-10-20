@@ -20,16 +20,22 @@
   "homepage": "https://github.com/Anna-tk/nodeTest#readme",
   "description": "",
   "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/mongoose": "^5.11.97",
     "nodemon": "^2.0.13"
   },
   "dependencies": {
     "@nestjs/cli": "^8.1.2",
     "@nestjs/common": "^8.1.1",
+    "@nestjs/config": "^1.0.2",
     "@nestjs/core": "^8.1.1",
     "@nestjs/platform-express": "^8.1.1",
+    "@nestjs/testing": "^8.1.1",
+    "@typegoose/typegoose": "^9.2.0",
     "@types/node": "^16.10.9",
-    "enum": "^3.0.4",
     "express": "^4.17.1",
+    "mongoose": "^6.0.11",
+    "nestjs-typegoose": "^7.1.38",
     "node": "^16.10.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",

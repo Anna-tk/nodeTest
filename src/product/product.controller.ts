@@ -20,7 +20,7 @@ export class ProductController {
 
     }
 
-    @Patch(':id')
+    @Patch(':id') // обновление, добавление поля
     async patch(@Param('id') id: string, @Body() dto: ProductModel) {
 
     }
