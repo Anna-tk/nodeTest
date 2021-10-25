@@ -2,7 +2,7 @@
 FROM node:14-alpine
 
 #папка в которой будем работать
-WORKDIR /opt/app
+WORKDIR /opt/untitled
 
 #добавили пэкэдж джейсон
 ADD package.json package.json
